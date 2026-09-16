@@ -5,7 +5,7 @@ const both=(place,parking,group)=>`${link('📍 景點',place)} ${link('🅿️ 
 const rows=[
  {day:'DAY 1',date:'9/25',note:'會合・入住'},
  {t:'09:00',a:'🚙 <b>板橋出發</b>',b:'—'},
- {t:'上午',a:'👶 <b>機動休息，最多一站</b><br>① 石碇服務區｜10–15 分<br>② 坪林下坑子口溪｜15–25 分<br>③ 二龍之心｜20–30 分<br><em>寶寶睡著就不停</em>',b:'🚗 <b>大直 → 渡小月直達</b><br>目標 11:30–11:45 抵達'},
+ {t:'上午',a:'👶 <b>機動休息，最多一站</b><br><b>① 石碇服務區｜10–15 分</b><div class="links">'+link('📍 Google Maps','石碇服務區')+' '+link('🅿️ Apple Maps 停車','石碇服務區 停車場','apple')+'</div><b>② 坪林下坑子口溪｜15–25 分</b><div class="links">'+link('📍 Google Maps','坪林 下坑子口溪 親水遊戲區')+' '+link('🅿️ Apple Maps 停車','坪林 下坑子口溪 親水遊戲區 停車場','apple')+'</div><b>③ 二龍之心｜20–30 分</b><div class="links">'+link('📍 Google Maps','二龍之心')+' '+link('🅿️ Apple Maps 停車','二龍之心 停車場','apple')+'</div><em>寶寶睡著就不停</em>',b:'🚗 <b>大直 → 渡小月直達</b><br>目標 11:30–11:45 抵達'},
  {t:'12:00',common:true,title:'🍽️ A+B 會合｜渡小月',desc:'一起午餐',place:'渡小月 宜蘭',parking:'渡小月 宜蘭 停車場'},
  {t:'13:35–14:30',common:true,title:'🌳 冬山河親水公園',desc:'河邊＋草地｜寶寶睏了就縮短｜下雨取消',place:'冬山河親水公園',parking:'冬山河親水公園 停車場'},
  {t:'15:00',common:true,title:'🏡 晨露庄 Check-in',desc:'A：寶寶嘗試午睡，睡不著就田野散步<br>B：入住、休息／自由活動',place:'晨露庄 宜蘭',parking:'晨露庄 宜蘭'},
